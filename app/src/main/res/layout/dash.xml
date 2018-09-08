@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#113163">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Profile"
+        android:textSize="30dp"
+        android:padding="5dp"
+        android:drawableRight="@drawable/arrow"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/textviewbackground"
+        android:textAllCaps="false"
+        android:textColor="@drawable/textbackground"
+        android:id="@+id/profilee"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Posts"
+        android:drawableRight="@drawable/arrow"
+        android:layout_marginTop="5dp"
+        android:textSize="30dp"
+        android:padding="5dp"
+        android:background="@drawable/textviewbackground"
+        android:textAllCaps="false"
+        android:textColor="@drawable/textbackground"
+        android:id="@+id/postt"
+
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:text="Last Donation"
+        android:drawableRight="@drawable/arrow"
+        android:textSize="30dp"
+        android:padding="5dp"
+        android:background="@drawable/textviewbackground"
+        android:textAllCaps="false"
+        android:textColor="@drawable/textbackground"
+        android:id="@+id/donationn"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:text="Logout"
+        android:drawableRight="@drawable/arrow"
+        android:textSize="30dp"
+        android:padding="5dp"
+        android:background="@drawable/textviewbackground"
+        android:textAllCaps="false"
+        android:textColor="@drawable/textbackground"
+        android:id="@+id/logout"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

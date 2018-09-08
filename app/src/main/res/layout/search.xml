@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#113163">
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:background="#870830">-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Doner List"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:textSize="35dp"-->
+            <!--android:layout_marginLeft="20dp"/>-->
+    <!--</LinearLayout>-->
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:padding="2dp">
+        <LinearLayout
+            android:padding="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="@drawable/viewbackground"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:layout_marginRight="2dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Blood"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center"
+                android:layout_weight="1.5"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:layout_gravity="center"
+                android:id="@+id/bloodspinner"
+                ></Spinner>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/viewbackground"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:layout_weight="1.4"
+                android:layout_gravity="center"/>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:layout_gravity="center"
+                android:id="@+id/addressspinner"
+                ></Spinner>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button"
+        android:text="Apply"
+        android:textAllCaps="false"
+        android:textColor="#ffff"
+        android:id="@+id/apply"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/bloodlist">
+    </ListView>
+
+</LinearLayout>
